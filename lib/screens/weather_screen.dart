@@ -37,8 +37,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
               ),
               weatherRow('Place :', result.name),
               weatherRow('Description :', result.description),
-              weatherRow(
-                  'Temperature :', result.temperature.toStringAsFixed(2)),
+              weatherRow('Temperature :', result.temperature.toStringAsFixed(2)),
               weatherRow('Perceived :', result.perceived.toStringAsFixed(2)),
               weatherRow('Pressure :', result.pressure.toString()),
               weatherRow('Humidity :', result.humidity.toString()),
